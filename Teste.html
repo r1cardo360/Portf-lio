@@ -9,57 +9,14 @@
     <title>Teste</title>
 </head>
 <body>
-<!--Barra de Navegação-->
-    <div class="container-fluid d-flex justify-content-around container-nav fixed-top">
-        <button class="navbar-toggler d-md-none button-nav" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbar">
-            <span><i class="bi bi-list"></i></span>
-        </button>
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="navbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Sobre mim</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Projetos</a>
-                </li>
-              </ul>
-            </div>
-        </div>
-        <h1 class="logo">Ricardo</h1>
-        <div class="navbar d-none d-md-flex">
-            <ul class="nav">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Sobre Mim</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Projetos</a>
-                </li>
-            </ul>
-        </div>
-        <div class="icone align-self-center">
-            <i class="bi bi-facebook"></i>
-            <i class="bi bi-instagram"></i>
-            <i class="bi bi-github"></i>
-            <i class="bi bi-linkedin"></i>
-        </div>
-    </div>
+    <!--Barra de Navegação-->
+    <div id="nav-placeholder"></div>
 
     <!--Conteudo-->
 
-    <header>
-        <div class="row d-flex justify-content-center container">
-            <div class="col-md-6 text-center">
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 text-center align-self-center">
                 <img class="img-fluid rounded-circle" src="https://image.freepik.com/vetores-gratis/icone-do-usuario_126283-700.jpg" alt="" width="200">
             </div>
             <div class="col-md-6 text-center container-fluid container-textual">
@@ -73,22 +30,9 @@
 
     <!--Footer-->
 
-    <footer class="fluid-container fixed-bottom">
-        <div class="row d-flex align-self-center pt-2 pb-2">
-            <div class="col-12 text-center">
-                <span><a href="https://www.facebook.com/ricardo.furlanetto.1" target="_blank"><i class="bi bi-facebook icon-footer"></i></a></span>
-                <span><a href="https://www.instagram.com/ricardo_furlanetto/" target="_blank"><i class="bi bi-instagram icon-footer"></i></a></span>
-                <span><a href="https://github.com/r1cardo360" target="_blank"><i class="bi bi-github icon-footer"></i></a></span>
-                <span><a href="#" target="_blank"><i class="bi bi-linkedin icon-footer"></i></a></span>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col text-center">
-                <p>&copy; 2024 Ricardo Furlanetto. todos os direitos reservados.</p>
-            </div>
-        </div>
-    </footer>
+    <div id="footer-placeholder"></div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="Script.js"></script>
 </body>
 </html>
