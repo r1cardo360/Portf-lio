@@ -1,8 +1,11 @@
-
+body{
+    padding-top: 90px;
+}
 
 .container-nav{
     border-bottom: 1px solid #ccc;
-    margin-bottom: 1rem
+    margin-bottom: 1rem;
+    background-color: #bfe1f3;
 }
 
 .button-nav{
@@ -12,3 +15,33 @@
 .container-textual{
     padding: 4rem;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a .bi-facebook:hover{
+    color: #1877f2;
+}
+
+a .bi-instagram:hover{
+    color: #833ab4;
+}
+
+a .bi-github:hover{
+    color:#6cc644;
+}
+
+a .bi-linkedin:hover{
+    color: #0077B5;
+}
+
+.icon-footer{
+    padding: 0px 1rem 0px 1rem ;
+}
+
+footer{
+    background-color: #f2f2f2;
+}
+
